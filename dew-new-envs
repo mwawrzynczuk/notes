@@ -1,0 +1,22 @@
+[https://jira.gtech.com/jira/browse/DEWB-58559]
+qc | DEWB-58563
+qd | DEWB-58564
+qe | DEWB-58565
+
+vsphere_hostname: plwawvc01.gtk.gtech.com
+datacenter: "WarsawTC_PDC_R&D"
+cluster: WarsawTC_BDC_01
+folderpath: /WarsawTC_PDC_R&D/vm/SITES/WESTLOTTO/q?
+default_datastore_name: BDC_FAS8060_01_VMWARE_DATASTORE_CLUSTER
+default_network: VDS1_80_22BIT
+default_security_group: aws-only
+default_patchlevel: q4-2022
+
+- acgs
+- connect
+- esout
+- esb2b
+- estegateway
+- pnp
+- portal
+

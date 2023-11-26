@@ -1,0 +1,13 @@
+rpm -e kernel-core-4.18.0-425.13.1.el8_7.x86_64 kernel-4.18.0-425.13.1.el8_7.x86_64 kernel-modules-4.18.0-425.13.1.el8_7.x86_64
+
+dewq1waarte01 - done
+dewq1waesapp01 - done
+dewq1waesweb01 - done
+dewq1wapnpapp01 - done
+dewq1wapnpweb01 - done
+dewq1waesc01 - done
+dewq1wab2b01 - done
+dewq1waesaapp01 - done
+dewq1waestegw01 - done
+dewq1waesdb01 - done
+dewq1wagto01 - done
