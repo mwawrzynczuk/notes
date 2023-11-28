@@ -1,33 +1,13 @@
-# waw capsules:
-infxbwarhnc01.inf4407.igt.com - 172.30.180.124
-infxbwarhnc02.inf4407.igt.com - 172.30.180.125
-infp1xbwarhns.inf4407.igt.com - 172.30.180.126
+# dew gw
+10.94.9.198 dewp1s1igtgw01.prod.delot.de dewp1s1igtgw01 dew-pdc
+10.94.10.198 dewc1s1igtgw21.test.delot.de dewc1s1igtgw21 dew-cat
+10.94.11.198 dewc3s1igtgw21.ftest.delot.de dewc3s1igtgw21 dew-ftest
+dewc1s1utl21
+# Lic
 
-boxes use infxarirhnc02.inf4407.igt.com (10.17.31.53)
+The Remote Desktop Session Host server is in Per Device licensing mode and No Redirector Mode, but license server 10.85.43.180 does not have any installed licenses with the following attributes:
+Product version: Windows Server 2019
+Licensing mode: Per Device
+License type: RDS CALs or VDI Premium Suite licenses
 
-curl https://infxbwarhnc01.inf4407.igt.com/pub/bootstrap.py >bootstrap.py
-
-## bad
-dewiawapnpweb01 10.253.205.167
-dewiawaesweb01 10.253.205.169
-dewiawaesdb01 10.253.205.171
-dewiawaestegw01 10.253.205.166
-dewiawaesaapp01 10.253.205.164
-
-
-satellite_name: infxarirhns
-satellite_domain: inf4407.igt.com
-satellite_ip: 10.17.31.50
-
-
-# dev env - dew_de
-products:
-+ acgs
-+ portal
-+ connect
-+ pnp
-+ connect
-+ esb2b
-+ esaout
-+ estegateway
 
