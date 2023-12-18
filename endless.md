@@ -20,3 +20,21 @@ DB2_HADR_ESDB5_2 65014/tcp # HADR for ESDB5
 yum update --disablerepo='*' --enablerepo=rhel7u9  --enablerepo=security-q2-2023-optional-rhel7u9  --enablerepo=security-q2-2023-rhel7u9  --enablerepo=security-q2-2023-rhn-tools-rhel7u9  --enablerepo=security-q2-2023-supplementary-rhel7u9  --exclude 'pdksh*,ksh*,httpd*,*openldap*,mod_ssl*,freeradius*,*java*,*jdk*,*puppet*,*tomcat*,*fop*'
 ```
 
+# DES mail
+swzq8waacon01 	
+
+idm
+rhnp
+capsule
+
+
+# Thu patching
+q3-2023
+ssh -N -L 8888:thucvircnt3:443 thucat
+
+
+thucaraut03:thucesmm2:thucggw3:thucnetbck3:thuctivoli3
+```
+yum update --disablerepo='*' --enablerepo=rhel6u10  --enablerepo=security-q3-2023-els-rhel6u10  --exclude 'pdksh*,ksh*,httpd*,*openldap*,mod_ssl*,freeradius*,*java*,*jdk*,*puppet*,*tomcat*,*fop*'
+yum update --disablerepo='*' --enablerepo=rhel7u9  --enablerepo=security-q3-2023-optional-rhel7u9  --enablerepo=security-q3-2023-rhel7u9  --enablerepo=security-q3-2023-rhn-tools-rhel7u9  --enablerepo=security-q3-2023-supplementary-rhel7u9  --exclude 'pdksh*,ksh*,httpd*,*openldap*,mod_ssl*,freeradius*,*java*,*jdk*,*puppet*,*tomcat*,*fop*'
+```

@@ -59,9 +59,9 @@ network_management_ip: 10.17.65.24
 ---
 vsphere_hostname: plwawvc01.gtk.gtech.com
 datacenter: "WarsawTC_PDC_R&D"
-cluster: Projects_AAA
-folderpath: /WarsawTC_PDC_R&D/vm/SITES/WESTLOTTO/de
-default_datastore_name: 11_T1_FP8_SAS10K_DATASTORE_CLUSTER
+cluster: WarsawTC_BDC_01
+folderpath: /WarsawTC_PDC_R&D/vm/SITES/WESTLOTTO/dx
+default_datastore_name: BDC_FAS8060_01_VMWARE_DATASTORE_CLUSTER
 default_network: VDS1_80_22BIT
 default_security_group: aws-only
 default_patchlevel: q4-2022
