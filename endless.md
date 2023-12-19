@@ -38,3 +38,16 @@ thucaraut03:thucesmm2:thucggw3:thucnetbck3:thuctivoli3
 yum update --disablerepo='*' --enablerepo=rhel6u10  --enablerepo=security-q3-2023-els-rhel6u10  --exclude 'pdksh*,ksh*,httpd*,*openldap*,mod_ssl*,freeradius*,*java*,*jdk*,*puppet*,*tomcat*,*fop*'
 yum update --disablerepo='*' --enablerepo=rhel7u9  --enablerepo=security-q3-2023-optional-rhel7u9  --enablerepo=security-q3-2023-rhel7u9  --enablerepo=security-q3-2023-rhn-tools-rhel7u9  --enablerepo=security-q3-2023-supplementary-rhel7u9  --exclude 'pdksh*,ksh*,httpd*,*openldap*,mod_ssl*,freeradius*,*java*,*jdk*,*puppet*,*tomcat*,*fop*'
 ```
+
+# bck interfaces 10 in 3rd octet
+1. remove from OS
+2. remove from esxi
+3. update icha
+
+dewc1s1arte21  | 2
+dewc1s2arte22  | 2
+dewc1s1esdb21  | 2
+dewc1s2esdb22  | 2
+dewc1s1gware21 | 2
+dewc3s1arte21  | 2
+dewc3s1esdb21  | 2
