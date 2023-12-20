@@ -52,4 +52,23 @@ dewc1s1gware21 | 2
 dewc3s1arte21  | 2
 dewc3s1esdb21  | 2
 
-
+# des ecc
+```
+sed -i 's/<signAlgo>16/<signAlgo>64/g' /usr/local/gtech/eseries/fsu/fsu.config.xml
+/usr/local/gtech/eseries/fsu/fsu.sh statusBackgroundSign
+/usr/local/gtech/eseries/fsu/fsu.sh stopBackgroundSign
+/usr/local/gtech/eseries/fsu/fsu.sh startBackgroundSign
+``` 
+dessftp3 
+dessftp4
+dessftp5
+dessftpd3	
+dessftpd4
+dessftpd5
+desnfs3	
+desnfs4	
+desnfs5	
+destivoli3
+destivoli4
+desggw3	
+desggw4
